@@ -1,0 +1,31 @@
+Problem Statement : Find number of good pairs
+
+You are given two strings, string 'a' and string 'b'. Your task is to find the number of good pairs between these strings.
+A good pair is defined as {S1, S2} where:
+
+1. S1 is a substring of string a
+2. S2 is a substring of string b
+3. S1 == S2
+
+Note that two substrings are considered different if they have different starting or ending indices, even if their values are the same. And a substring can be empty.
+You are not required to take inputs. You are required to complete the funcion 'findGoodPairs()'.
+
+Example
+
+Input
+abc ab
+
+Output
+4
+
+Explanation
+The good pairs are:
+1. ("", "")
+2. (a, a)
+3. (ab, ab)
+4. (b, b)
+
+Constraints
+
+- The lengths of strings a and b will be between 0 and 2000, inclusive.
+- Both strings will consist of lowercase English letters only.
